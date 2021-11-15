@@ -8,7 +8,7 @@
     {{ form.as_p }}
     <input type="submit" value="Login">
 </form>
-
+<a href="{% url 'signup' %}">Register</a>
 <a href="{% url 'dashboard' %}">Back to dashboard</a>
 <a href="{% url 'password_reset' %}">Reset password</a>
 {% endblock %}
